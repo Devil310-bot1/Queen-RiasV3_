@@ -1,7 +1,7 @@
 require("dotenv").config(); // Load environment variables
 
 module.exports = {
-    prefix: process.env.PREFIX || "!", // Command prefix
+    prefix: process.env.PREFIX || "*", // Command prefix
 
     ownerName: process.env.OWNER_NAME || "Devil", // Owner name
 
@@ -11,7 +11,7 @@ module.exports = {
 
     region: process.env.REGION || "Nigeria", // Region
 
-    botName: process.env.BOT_NAME || "Devils V3", // Bot name
+    botName: process.env.BOT_NAME || "Rias Gremory V3", // Bot name
 
     exifPack: process.env.EXIF_PACK || "RIAS V3 LOVES", // Sticker pack name
 
